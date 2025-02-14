@@ -1,16 +1,13 @@
 struct Query{                         // operations depends on problem
-  inline void add(int pos) {          // insert to right site (R)
+  inline void add(int pos) {          
     
   }
-
-  inline void removee(int pos) {       // remove from left site (L)
+  inline void removee(int pos) {       
     
   }
-
   inline ll getAnswer() {
     
   }
-
   inline void reset(int n){
     
   }
