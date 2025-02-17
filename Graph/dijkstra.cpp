@@ -13,7 +13,6 @@ vector<ll> dijkstra(int n, int start){      // O(E * log(V))
 
     if(vis[v]) continue;        // if already done
     vis[v] = true;
-
     for(auto child : g[v]){
       int u = child.first;
       ll v_u = child.second;              // dis from node v to node u
