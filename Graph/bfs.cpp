@@ -1,12 +1,9 @@
-#include<bits/stdc++.h>
-using namespace std;
-
 const int inf = 1e9;
 const int N = 1e5 + 9;
 vector<int> g[N];
 
 vector<int> bfs(int node, int start){
-  vector<int> dis(node + 2, inf);
+	vector<int> dis(node + 2, inf);
 	vector<bool> dis(node + 2, false);
 	queue<int> q;
 	q.push(start);
@@ -33,7 +30,6 @@ int main(){
 		g[v].push_back(u);
 	}
 
-  int start;  cin >> start;
-	auto dis = bfs(node, start);  // distance from source/starting node
-
+	auto dis = bfs(1);
+	
 }
