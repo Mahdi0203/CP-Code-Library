@@ -20,3 +20,5 @@ int main(){
 
   // code
 }
+
+sample problem : https://cses.fi/paste/6d2b613367dfad79b89511/
