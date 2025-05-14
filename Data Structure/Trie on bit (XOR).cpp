@@ -99,7 +99,10 @@ struct Trie{
     }
     return ans;
   }
-
+  void del(node* cur) {
+    for (int i = 0; i < 2; i++) if (cur -> nxt[i]) del(cur -> nxt[i]);
+    delete(cur);
+  }
 } ; 
 
 void solve ( int cs ){
